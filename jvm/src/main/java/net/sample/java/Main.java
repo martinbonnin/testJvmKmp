@@ -8,6 +8,7 @@ public class Main {
         try {
             System.out.println("Hello Mpp");
         } catch (MppException e) {
+            // MppException should be underlined above
             System.out.println("Oops");
         }
     }

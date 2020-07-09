@@ -8,6 +8,7 @@ class Main {
             try {
                 println("Hello Mpp")
             } catch (e: MppException) {
+                // MppException is correctly recognized
                 println("Oops")
             }
         }
